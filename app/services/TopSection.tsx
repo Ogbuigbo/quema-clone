@@ -34,7 +34,7 @@ function TopSection() {
 
         {/* Second Block */}
         <div className='flex flex-col lg:flex-row  items-center justify-center gap-12'>
-          <Image src='https://tinypic.host/images/2024/10/11/tenweb_media_WxvF9eya.webp' width={600} height={600} alt='about-us' className='lg:w-[500px] rounded-lg' />
+          <Image src='https://tinypic.host/images/2024/10/11/tenweb_media_WxvF9eya.webp' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg' />
           <div className='flex flex-col gap-6'>
             <h1 className='text-3xl lg:text-4xl font-semibold text-gray-900'>Recruitment & Selection Process</h1>
             <p className='w-full xl:w-[550px] text-gray-700 text-justify'>

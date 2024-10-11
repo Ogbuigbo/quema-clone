@@ -7,38 +7,8 @@ import "slick-carousel/slick/slick-theme.css";
 import { ITEMS } from '../utils/data';
 
 function ImageScroll() {
-  // Custom Next Arrow
-  const SampleNextArrow = (props: { onClick: any; }) => {
-    const { onClick } = props;
-    return (
-      <div
-        className="absolute right-5 z-10 flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 text-white cursor-pointer transition-transform transform hover:scale-110 hover:opacity-90"
-        style={{ top: '50%', transform: 'translateY(-50%)' }}
-        onClick={onClick}
-        aria-label="Next Slide"
-      >
-        &#62;
-      </div>
-    );
-  };
-
-  // Custom Previous Arrow
-  const SamplePrevArrow = (props: { onClick: any; }) => {
-    const { onClick } = props;
-    return (
-      <div
-        className="absolute left-5 z-10 flex items-center justify-center w-8 h-8 rounded-full bg-gray-800 text-white cursor-pointer transition-transform transform hover:scale-110 hover:opacity-90"
-        style={{ top: '50%', transform: 'translateY(-50%)' }}
-        onClick={onClick}
-        aria-label="Previous Slide"
-      >
-        &#60;
-      </div>
-    );
-  };
-
   const settings = {
-    dots: false,
+    dots: true,  // Enable dots for pagination
     infinite: true,
     speed: 800,  // Smoother transition
     slidesToShow: 3,
@@ -68,12 +38,10 @@ function ImageScroll() {
         },
       },
     ],
-    nextArrow: <SampleNextArrow onClick={undefined} />,
-    prevArrow: <SamplePrevArrow onClick={undefined} />,
   };
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative mb-16"> {/* Added margin-bottom to create space */}
       <Slider {...settings} className="flex items-center justify-center mt-8">
         {ITEMS.map((item, index) => (
           <div key={index} className="flex flex-col items-center justify-center p-2">
@@ -93,6 +61,9 @@ function ImageScroll() {
           </div>
         ))}
       </Slider>
+
+      {/* Custom CSS for dots */}
+  
     </div>
   );
 }

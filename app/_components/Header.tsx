@@ -95,7 +95,7 @@ function Header() {
 
       {/* Mobile Navigation Menu */}
       <div
-        className={`absolute top-[133px] left-0 w-full bg-white bg-opacity-50 shadow-md text-white transform z-50 ${
+        className={`absolute top-[100px] left-0 w-full bg-white bg-opacity-50 shadow-md text-white transform z-50 ${
           !nav
             ? 'opacity-0 pointer-events-none translate-y-full'
             : 'opacity-100 pointer-events-auto translate-y-0'
