@@ -23,7 +23,7 @@ function About() {
             Our Commitment to Excellence
           </h1>
 
-          <p className='text-lg text-gray-600 leading-relaxed'>
+          <p className='text-lg text-gray-600 leading-relaxed '>
             Quema Consulting is an organizational development and HR business advisory firm that provides strategic solutions for companies and institutions, ensuring their continued growth through tailored organizational planning.
           </p>
 

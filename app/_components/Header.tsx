@@ -52,15 +52,15 @@ function Header() {
   };
 
   return (
-    <header className="w-full px-6 lg:px-12 flex items-center justify-between bg-[#f9fafb] shadow-md z-50">
+    <header className="w-full px-6 lg:px-12 flex items-center justify-between bg-[#f9fafb] shadow-md z-50 py-8">
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image
-          src="https://tinypic.host/images/2024/10/10/logo_primary_iINHMOrK.png"
-          width={150}
-          height={150}
+          src="https://tinypic.host/images/2024/10/12/Screenshot-2024-10-12-at-17.32.15-fotor-20241012173353.png"
+          width={250}
+          height={250}
           alt="logo"
-          className="object-cover"
+          className="object-cover w-[200px] "
         />
       </Link>
 
