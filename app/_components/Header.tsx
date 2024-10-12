@@ -60,7 +60,7 @@ function Header() {
           width={250}
           height={250}
           alt="logo"
-          className="object-cover w-[200px] sm:w-[250px] md:w-full"
+          className="object-cover w-[250px] sm:w-[250px] md:w-full"
         />
       </Link>
 
