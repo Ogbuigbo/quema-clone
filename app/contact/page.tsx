@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail } from 'lucide-react';
 
 function page() {
   return (
-    <section className="bg-[#f2f4f6] py-20 px-6 xl:px-[150px] lg:px-10">
+    <section className="bg-[#f2f4f6] py-20 px-6 md:px-10 xl:px-[150px] lg:px-10">
       <div className="max-w-screen-md mx-auto text-center">
         {/* Heading */}
         <h1 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
