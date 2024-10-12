@@ -42,7 +42,7 @@ function Form() {
 						<div className="flex flex-col">
 							<label htmlFor="name" className="text-gray-700 font-semibold mb-2">Name <span className="text-red-600">*</span></label>
 							<input
-								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4a90e2] transition-all placeholder-gray-500 text-sm"
+								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none  transition-all placeholder-gray-500 text-sm"
 								placeholder="Enter your name"
 								type="text"
 								id="name"
@@ -54,7 +54,7 @@ function Form() {
 						<div className="flex flex-col">
 							<label htmlFor="email" className="text-gray-700 font-semibold mb-2">Email Address <span className="text-red-600">*</span></label>
 							<input
-								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4a90e2] transition-all placeholder-gray-500 text-sm"
+								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none  transition-all placeholder-gray-500 text-sm"
 								placeholder="Enter your email"
 								type="email"
 								id="email"
@@ -66,7 +66,7 @@ function Form() {
 						<div className="flex flex-col">
 							<label htmlFor="phone" className="text-gray-700 font-semibold mb-2">Phone <span className="text-red-600">*</span></label>
 							<input
-								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4a90e2] transition-all placeholder-gray-500 text-sm"
+								className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none  transition-all placeholder-gray-500 text-sm"
 								placeholder="Enter your phone number"
 								type="tel"
 								id="phone"
@@ -79,7 +79,7 @@ function Form() {
 					<div className="flex flex-col">
 						<label htmlFor="message" className="text-gray-700 font-semibold mb-2">Message</label>
 						<textarea
-							className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#4a90e2] transition-all placeholder-gray-500 text-sm"
+							className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-[#4a90e2] transition-all placeholder-gray-500 text-sm"
 							placeholder="Write your message here..."
 							rows={6}
 							id="message"
@@ -91,7 +91,7 @@ function Form() {
 					<div className="flex  mt-6">
 						<button
 							type="submit"
-							className="inline-block bg-[#821fa0] hover:bg-[#3a7ac7] transition-colors text-white font-semibold px-8 py-3 rounded-lg shadow-lg"
+							className="inline-block bg-[#821fa0] hover:bg-[#ae4bcc] transition-colors text-white font-semibold px-8 py-3 rounded-lg shadow-lg"
 						>
 							Submit
 						</button>

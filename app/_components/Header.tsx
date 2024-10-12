@@ -56,11 +56,11 @@ function Header() {
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image
-          src="https://tinypic.host/images/2024/10/12/Screenshot-2024-10-12-at-17.32.15-fotor-20241012173353.png"
+          src="https://tinypic.host/images/2024/10/12/Screenshot-2024-10-12-at-17.32.15-fotor-20241012192230.png"
           width={250}
           height={250}
           alt="logo"
-          className="object-cover w-[200px] "
+          className="object-cover w-[200px] sm:w-[250px] md:w-full"
         />
       </Link>
 

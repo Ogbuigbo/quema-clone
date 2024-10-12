@@ -1,6 +1,7 @@
 import React from 'react'
 import { Check } from 'lucide-react';
 import { MIDDLE } from '../utils/data';
+import Link from 'next/link';
 
 function Middle() {
   return (
@@ -32,9 +33,9 @@ function Middle() {
   </div>
   
     {/* Call to Action Button */}
-    <button className="bg-[#821fa0] text-white py-3 px-8 rounded-lg font-medium hover:bg-[#821fa0] transition-all duration-300 ease-in-out text-lg">
+    <Link href='/contact' className="bg-[#821fa0] text-white py-3 px-8 rounded-lg font-medium hover:bg-[#ae4bcc] transition-all duration-300 ease-in-out text-lg">
       CONTACT US
-    </button>
+    </Link>
   </div>
 
   {/* Right Grid Section */}

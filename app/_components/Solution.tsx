@@ -4,7 +4,7 @@ import ImageScroll from './Slider';
 const Solution = () => {
 
     return (
-        <div className='px-6 md:px-10 xl:px-[150px] lg:px-[50px] bg-[#f8f9fa] pt-16 pb-20 overflow-hidden'>
+        <div className='px-6 md:px-10 xl:px-[150px] lg:px-[50px] bg-[#f8f9fa]  py-16 overflow-hidden'>
             <div className='flex flex-col items-center text-center'>
                 <h1 className='text-4xl font-bold text-gray-900'>
                     Our HR Consulting Services
