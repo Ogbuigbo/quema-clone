@@ -13,7 +13,7 @@ function About() {
             alt='about-us' 
             width={500} 
             height={500} 
-            className='lg:w-[400px] xl:w-full rounded-md 2xl:w-[700px] h-[600px]'
+            className='lg:w-[400px] xl:w-full rounded-md 2xl:w-[700px] lg:h-[600px] md:h-[400px] h-[300px] object-cover'
           />
         </div>
         
