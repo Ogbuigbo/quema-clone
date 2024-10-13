@@ -44,16 +44,16 @@ function ImageScroll() {
     <div className="relative mb-16"> {/* Added margin-bottom to create space */}
       <Slider {...settings} className="flex items-center justify-center mt-8">
         {ITEMS.map((item, index) => (
-          <div key={index} className="flex flex-col items-center justify-center p-2">
+          <div key={index} className="flex flex-col items-center justify-center p-2 2xl:p-8">
             <div className="shadow-md transition-transform transform hover:scale-105 hover:shadow-xl rounded-lg overflow-hidden">
               <Image 
                 src={item.icons} 
                 width={400} 
                 height={400} 
                 alt='splash' 
-                className="object-cover md:h-auto h-[200px]"  
+                className="object-cover md:h-[250px] h-[200px] 2xl:w-full"  
               />
-              <div className="text-center mt-2 p-4">
+              <div className="text-center mt-2 p-4 2xl:p-8">
                 <h1 className="text-xl font-semibold text-gray-900 transition-colors ">{item.title}</h1>
                 <p className="text-gray-600">{item.description}</p>
               </div>

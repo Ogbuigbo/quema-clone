@@ -12,7 +12,7 @@ export const NAV_LINKS = [
 
 export const ITEMS = [
   {
-    icons: 'https://tinypic.host/images/2024/10/11/tenweb_media_lAJ00SWr.webp',
+    icons: 'https://tinypic.host/images/2024/10/13/freepik-export-20241013124818bAhM.jpeg',
     title: 'Human Resources Planning',
     description: 'Quema Consulting would help evaluate your firm’s present and future demands for various types of labour and attempt to match the demand with the supply of job applicants. ',
   },
@@ -22,12 +22,12 @@ export const ITEMS = [
     description: 'Quema Consulting is committed to employing the best qualified candidates while engaging in recruitment and selection practices that comply with all applicable employment laws.',
   },
   {
-    icons: 'https://tinypic.host/images/2024/10/11/tenweb_media_Nhq2qmTN.webp',
+    icons: 'https://tinypic.host/images/2024/10/13/freepik-export-202410131230271oRy.jpeg',
     title: 'Job Analysis',
     description: 'Job analysis is the process of gathering and analyzing information about the content and the human requirements of jobs, as well as, the context in which jobs are performed.',
   },
   {
-    icons: 'https://tinypic.host/images/2024/10/11/tenweb_media_WxvF9eya.webp',
+    icons: 'https://tinypic.host/images/2024/10/13/freepik-export-202410131239441j5p.jpeg',
     title: 'Performance Management',
     description: 'Quema Consulting will help the customer to measure their organizational strategic objectives with their operational objective',
   },

@@ -3,17 +3,17 @@ import React from 'react'
 
 function About() {
   return (
-    <section className='py-24 md:px-10 px-6 xl:px-[150px] lg:px-[50px]'>
-      <div className='mx-auto max-w-screen-xl flex flex-col lg:flex-row items-center justify-between gap-12'>
+    <section className='py-24 md:px-10 px-6 xl:px-[150px] lg:px-[50px] 2xl:pt-[500px]'>
+      <div className='mx-auto max-w-screen-xl flex flex-col lg:flex-row items-center justify-center  gap-20'>
 
         {/* Image Section */}
         <div className='flex-shrink-0'>
           <Image 
-            src='https://tinypic.host/images/2024/10/11/tenweb_media_2FlqTRPN.webp' 
+            src='https://tinypic.host/images/2024/10/13/freepik-export-20241013125900zYKt.jpeg' 
             alt='about-us' 
             width={500} 
             height={500} 
-            className='lg:w-[400px] xl:w-full rounded-md'
+            className='lg:w-[400px] xl:w-full rounded-md 2xl:w-[700px] h-[600px]'
           />
         </div>
         

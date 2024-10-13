@@ -18,10 +18,10 @@ function Hero() {
   return (
     <section className="relative bg-[#f2f4f6]">
       <div
-        className="absolute inset-0 bg-cover bg-no-repeat z-3"
+        className="absolute inset-0 bg-cover bg-no-repeat z-3 2xl:h-[1000px]"
         style={{
           backgroundImage:
-            "url('https://tinypic.host/images/2024/10/11/tenweb_media_lVnf7c8x.webp')",
+            "url('https://tinypic.host/images/2024/10/13/freepik-export-20241013131912RnnL.jpeg')",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}
