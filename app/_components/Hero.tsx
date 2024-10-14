@@ -49,11 +49,11 @@ function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
-  <Link
-    className="block rounded bg-[#ffff] px-8 py-3 text-sm font-medium text-black shadow hover:bg-[#821fa0] hover:text-[#fff] transition-colors duration-300 focus:outline-none focus:ring active:bg-[#821fa0] sm:w-auto"
-    href="/services/#sourcing"
+  <Link href="/services/#sourcing">
+  <button className="block rounded bg-[#ffff] px-8 py-3 text-sm font-medium text-black shadow hover:bg-[#821fa0] hover:text-[#fff] transition-colors duration-300 focus:outline-none focus:ring active:bg-[#821fa0] sm:w-auto"
   >
     Get Started
+  </button>
   </Link>
   <Link
     className="block rounded px-8 py-3 text-sm font-medium border text-[#fff] shadow hover:text-black hover:bg-[#fff] transition-colors duration-300 focus:outline-none focus:ring active:text-[#0f151b] sm:w-auto"
