@@ -50,9 +50,10 @@ function Footer() {
 							<span>CONSULTING</span> <span>LIMITED</span>
 							<span></span>{" "}
 						</h1>
-						<p className="mt-2 text-justify text-[#999]  text-[12px] xl:text-[16px] xl:min-w-[471px]  font-medium lg:min-w-[390px] w-full">
-						Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning. 
-						</p>
+						<p className="mt-2 text-justify text-[#999] text-[12px] xl:text-[16px] xl:min-w-[471px] font-medium lg:min-w-[390px] w-full">
+  At Quema Consulting, we partner with businesses to unlock their full potential through strategic HR solutions and organizational development. Our expertise ensures your company thrives in a competitive landscape by aligning people, processes, and performance with your business goals.
+</p>
+
 					</div>
 
 					<div className="md:ml-[150px]">

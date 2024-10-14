@@ -29,8 +29,8 @@ function Hero() {
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#0000005a] opacity-80 z-1 h-auto"></div>
 
-      <div className="relative mx-auto max-w-screen-xl px-4 md:py-32 py-20 lg:flex lg:items-center z-3 md:pb-[200px]">
-        <div className="mx-auto max-w-xl text-center">
+      <div className="relative mx-auto max-w-screen-xl px-4 md:py-32 py-20 lg:flex lg:items-center  z-3 md:pb-[200px]">
+        <div className="mx-auto max-w-xl text-center flex flex-col justify-center items-center 2xl:mt-[200px]">
           <h1 className="text-3xl font-extrabold sm:text-5xl text-white relative">
             Elevate Your Workforce.
             <strong className="font-extrabold  sm:block">

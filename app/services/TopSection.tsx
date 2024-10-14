@@ -6,14 +6,15 @@ function TopSection() {
     <div className='pb-10'>
       {/* Top Heading Section */}
       <div className='flex flex-col justify-center items-center px-6 w-full'>
-        <h1 className='text-4xl font-bold text-gray-900 mt-20 flex flex-col gap-2 justify-center items-center'>
-          What We Provide
-          <hr className='w-[100px] bg-slate-500 p-[1px] mt-4' />
-        </h1>
-        <p className='mt-6 w-full lg:w-[600px] text-center text-gray-700'>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.
-        </p>
-      </div>
+  <h1 className='text-4xl font-bold text-gray-900 mt-20 flex flex-col gap-2 justify-center items-center'>
+    What We Provide
+    <hr className='w-[100px] bg-slate-500 p-[1px] mt-4' />
+  </h1>
+  <p className='mt-6 w-full lg:w-[600px] text-center text-gray-700'>
+    At Quema Consulting, we offer comprehensive HR services that streamline your processes, enhance talent acquisition, and drive organizational success. 
+  </p>
+</div>
+
 
       {/* Main Content Section */}
       <section className='px-8 xl:px-[150px] lg:px-10 mt-16 space-y-16 2xl:space-y-24 pb-8 xl:pb-0'>
