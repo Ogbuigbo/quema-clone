@@ -2,6 +2,7 @@ import React from 'react';
 
 import ContactUsForm from '../_components/form';
 import { MapPin, Phone, Mail } from 'lucide-react';
+import Link from 'next/link';
 
 function page() {
   return (
@@ -26,12 +27,12 @@ function page() {
             Contact Us Now
           </a>
 
-          <a
+          <Link
             className="block rounded border px-8 py-3 text-sm lg:text-base font-medium  shadow hover:text-[#16202a] hover:bg-white  hover:border-[#821fa0]  focus:outline-none focus:ring active:text-[#0f151b] sm:w-auto"
-            href="#"
+            href="/about"
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
 

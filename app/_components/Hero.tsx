@@ -18,7 +18,7 @@ function Hero() {
   return (
     <section className="relative bg-[#f2f4f6]">
       <div
-        className="absolute inset-0 bg-cover bg-no-repeat z-3 2xl:h-[1000px]"
+        className="absolute inset-0 bg-cover bg-no-repeat z-3 2xl:h-[1000px] "
         style={{
           backgroundImage:
             "url('https://tinypic.host/images/2024/10/13/freepik-export-20241013131912RnnL.jpeg')",
@@ -27,7 +27,7 @@ function Hero() {
         }}
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-[#0000005a] opacity-80 z-1"></div>
+      <div className="absolute inset-0 bg-[#0000005a] opacity-80 z-1 h-auto"></div>
 
       <div className="relative mx-auto max-w-screen-xl px-4 md:py-32 py-20 lg:flex lg:items-center z-3 md:pb-[200px]">
         <div className="mx-auto max-w-xl text-center">
@@ -51,7 +51,7 @@ function Hero() {
           <div className="mt-8 flex flex-wrap justify-center gap-4">
   <Link
     className="block rounded bg-[#ffff] px-8 py-3 text-sm font-medium text-black shadow hover:bg-[#821fa0] hover:text-[#fff] transition-colors duration-300 focus:outline-none focus:ring active:bg-[#821fa0] sm:w-auto"
-    href="/about"
+    href="/services/#sourcing"
   >
     Get Started
   </Link>

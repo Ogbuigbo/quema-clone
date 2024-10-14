@@ -56,7 +56,7 @@ function Header() {
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image
-          src="https://tinypic.host/images/2024/10/12/Screenshot-2024-10-12-at-17.32.15-fotor-20241012192230.png"
+          src="https://tinypic.host/images/2024/10/14/Screenshot-2024-10-14-at-08.23.42-fotor-2024101492549.png"
           width={250}
           height={250}
           alt="logo"

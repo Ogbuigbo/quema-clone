@@ -1,9 +1,12 @@
 import Image from 'next/image'
 import React from 'react'
 
+
+
+
 function About() {
   return (
-    <section className='py-24 md:px-10 px-6 xl:px-[150px] lg:px-[50px] 2xl:pt-[500px]'>
+    <section className='py-24 md:px-10 px-6 xl:px-[150px] lg:px-[50px] 2xl:pt-[500px] '>
       <div className='mx-auto max-w-screen-xl flex flex-col lg:flex-row items-center justify-center  gap-20'>
 
         {/* Image Section */}

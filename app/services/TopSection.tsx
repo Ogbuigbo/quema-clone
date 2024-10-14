@@ -33,7 +33,7 @@ function TopSection() {
         </div>
 
         {/* Second Block */}
-        <div className='flex flex-col lg:flex-row  items-center justify-center gap-12'>
+        <div className='flex flex-col lg:flex-row  items-center justify-center gap-12' id='sourcing'>
           <Image src='https://tinypic.host/images/2024/10/13/freepik-export-202410131239441j5p.jpeg' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg 2xl:w-[900px] lg:h-[350px] object-cover' />
           <div className='flex flex-col gap-6'>
             <h1 className='text-3xl lg:text-4xl font-semibold text-gray-900'>Recruitment & Selection Process</h1>
