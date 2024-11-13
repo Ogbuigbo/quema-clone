@@ -2,7 +2,7 @@
 const nextConfig = {
     // reactStrictMode: false,
     images: {
-        domains: ['aheioqhobo.cloudimg.io', 'images.unsplash.com', 'tinypic.host'],
+        domains: ['aheioqhobo.cloudimg.io', 'images.unsplash.com', 'tinypic.host', 'res.cloudinary.com'],
     },
 };
 

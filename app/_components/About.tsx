@@ -12,7 +12,7 @@ function About() {
         {/* Image Section */}
         <div className='flex-shrink-0'>
           <Image 
-            src='https://tinypic.host/images/2024/10/13/freepik-export-20241013125900zYKt.jpeg' 
+            src='https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731496976/freepik-export-20241013125900zYKt_1_lervpn.jpg' 
             alt='about-us' 
             width={500} 
             height={500} 
