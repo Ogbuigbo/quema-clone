@@ -71,7 +71,7 @@ function Header() {
       {/* Logo */}
       <Link href="/" className="flex items-center">
         <Image
-          src="https://tinypic.host/images/2024/10/14/quema-2-fotor-202410142237.png"
+          src="https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731498946/quema-2-fotor-202410142237_sliyta.png"
           width={250}
           height={100}
           alt="logo"
