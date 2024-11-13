@@ -1,18 +1,20 @@
 import { MetadataRoute } from 'next';
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+    const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+
     return [
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/about`,
-            lastModified: new Date().toISOString(),
+            url: `${baseUrl}/about`,
+            lastModified: '2024-11-13', // Use specific dates if possible
         },
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/services`,
-            lastModified: new Date().toISOString(),
+            url: `${baseUrl}/services`,
+            lastModified: '2024-11-13', // Update dates as needed
         },
         {
-            url: `${process.env.NEXT_PUBLIC_BASE_URL}/contact`,
-            lastModified: new Date().toISOString(),
+            url: `${baseUrl}/contact`,
+            lastModified: '2024-11-13',
         }
     ];
 }
