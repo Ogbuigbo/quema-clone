@@ -58,7 +58,7 @@ function MiddleSection() {
 
       <div className='mt-10 lg:mt-0'>
         <Image 
-          src='https://tinypic.host/images/2024/10/21/freepik-export-202410211228233jEl.jpeg' 
+          src='https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731498551/freepik-export-202410211228233jEl_1_dfttiw.jpg' 
           width={500} 
           height={500} 
           alt='about-us' 

@@ -50,7 +50,7 @@ function Facts() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
         style={{
-          backgroundImage: "url('https://tinypic.host/images/2024/10/09/stats_bg.jpg')",
+          backgroundImage: "url('https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731497631/stats_bg_mxzia1.jpg')",
         }}
       />
 

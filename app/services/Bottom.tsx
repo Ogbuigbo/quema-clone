@@ -19,7 +19,7 @@ function Bottom() {
       {/* Content Section */}
       <div className='mt-16 flex flex-col lg:flex-row items-center lg:items-start justify-center xl:space-y-10 gap-16'>
         <Image
-          src='https://tinypic.host/images/2024/10/10/s.jpg'
+          src='https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731498379/s_zvurjk.jpg'
           width={500}
           height={500}
           alt='HR Consulting'

@@ -30,12 +30,12 @@ function TopSection() {
               Read More
             </button> */}
           </div>
-          <Image src='https://tinypic.host/images/2024/10/13/freepik-export-20241013124818bAhM.jpeg' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg 2xl:w-[900px]' />
+          <Image src='https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731497753/freepik-export-20241013124818bAhM_1_pwcx9l.jpg' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg 2xl:w-[900px]' />
         </div>
 
         {/* Second Block */}
         <div className='flex flex-col lg:flex-row  items-center justify-center gap-12' id='sourcing'>
-          <Image src='https://tinypic.host/images/2024/10/13/freepik-export-202410131239441j5p.jpeg' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg 2xl:w-[900px] lg:h-[350px] object-cover' />
+          <Image src='https://res.cloudinary.com/dpkn1ppzj/image/upload/v1731497929/freepik-export-202410131239441j5p_1_xdvrtn.jpg' width={600} height={600} alt='about-us' className='lg:w-[500px] lg:shadow-none md:shadow-lg bg-[#f8f9fa] w-full rounded-lg 2xl:w-[900px] lg:h-[350px] object-cover' />
           <div className='flex flex-col gap-6'>
             <h1 className='text-3xl lg:text-4xl font-semibold text-gray-900'>Recruitment & Selection Process</h1>
             <p className='w-full xl:w-[550px] text-gray-700 text-justify'>
