@@ -85,7 +85,7 @@ export async function POST(request: Request) {
 					Ordinance, Port Harcourt, 500211<br />
 					Rivers State.<br />
 					M: 08121901685<br />
-					<a href="https://quemaconsulting.com/" style="color: #712323; text-decoration: none;">https://quema-clone.vercel.app/</a>
+					<a href="https://quemaconsulting.com/" style="color: #712323; text-decoration: none;">https://quemaconsulting.com/</a>
 				</p>
 				<div style="margin-top: 10px;">
 					<a href="https://tinypic.host/images/2024/10/28/facebook.png" style="margin: 0 5px;">
