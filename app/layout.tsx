@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     default: "Quema Consulting",
     template: "%s | Quema Consulting"
   },
-  description: "Quema Consulting is an organizational development and HR business advisory firm that provides organizational solution for companies and institutions to ensure that their corporate concern are thriving through strategic planning.",
+  description: "Quema Consulting offers organizational development and HR solutions to help companies thrive through strategic planning and effective corporate support.",
   twitter: {
     card: 'summary_large_image'
   },

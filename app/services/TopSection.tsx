@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function TopSection() {
   return (
-    <div className='pb-10'>
+    <section className='pb-10'>
       {/* Top Heading Section */}
       <div className='flex flex-col justify-center items-center px-6 w-full'>
   <h1 className='text-4xl font-bold text-gray-900 mt-20 flex flex-col gap-2 justify-center items-center'>
@@ -47,7 +47,7 @@ function TopSection() {
           </div>
         </div>
       </section>
-    </div>
+    </section>
   );
 }
 

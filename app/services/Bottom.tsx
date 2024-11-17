@@ -33,9 +33,9 @@ function Bottom() {
                 {item.icons}
               </div>
               <div className='flex flex-col'>
-                <h1 className='text-xl font-semibold text-gray-900'>
+                <h2 className='text-xl font-semibold text-gray-900'>
                   {item.title}
-                </h1>
+                </h2>
                 <p className='text-gray-600 mt-2 lg:max-w-[400px]'>
                   {item.description}
                 </p>

@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function TopSection() {
   return (
-    <div className='pb-16 px-8 xl:px-[150px] lg:px-10 '>
+    <section className='pb-16 px-8 xl:px-[150px] lg:px-10 '>
       <div className='flex flex-col justify-center items-center px-6 w-full'>
         <h1 className='text-4xl font-bold text-gray-900 mt-20 flex flex-col gap-2 justify-center items-center'>
           About Us
@@ -28,9 +28,9 @@ function TopSection() {
         
         {/* Text Section */}
         <div className='xl:max-w-[500px] space-y-8'>
-          <h1 className='text-4xl font-extrabold text-gray-900 leading-tight'>
+          <h2 className='text-4xl font-extrabold text-gray-900 leading-tight'>
             Why Choose Quema Consulting
-          </h1>
+          </h2>
 
           <p className='text-lg text-gray-600 leading-relaxed'>
             Quema Consulting provides organizational development and HR business advisory services, offering strategic solutions for companies to ensure continued growth through effective HR planning.
@@ -40,7 +40,7 @@ function TopSection() {
           <div className='space-y-6'>
             {/* Progress 1 */}
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold text-gray-800'>Talent Acquisition <span className='text-gray-600'>80%</span></h6>
+              <h3 className='text-xl font-semibold text-gray-800'>Talent Acquisition <span className='text-gray-600'>80%</span></h3>
               <div className='w-full bg-gray-200 rounded-full h-2.5'>
                 <div className='bg-[#5f1928] h-2.5 rounded-full' style={{ width: '80%' }}></div>
               </div>
@@ -48,7 +48,7 @@ function TopSection() {
 
             {/* Progress 2 */}
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold text-gray-800'>HR Development <span className='text-gray-600'>75%</span></h6>
+              <h3 className='text-xl font-semibold text-gray-800'>HR Development <span className='text-gray-600'>75%</span></h3>
               <div className='w-full bg-gray-200 rounded-full h-2.5'>
                 <div className='bg-[#5f1928] h-2.5 rounded-full' style={{ width: '75%' }}></div>
               </div>
@@ -56,7 +56,7 @@ function TopSection() {
 
             {/* Progress 3 */}
             <div className='space-y-2'>
-              <h6 className='text-xl font-semibold text-gray-800'>Performance Management <span className='text-gray-600'>85%</span></h6>
+              <h3 className='text-xl font-semibold text-gray-800'>Performance Management <span className='text-gray-600'>85%</span></h3>
               <div className='w-full bg-gray-200 rounded-full h-2.5'>
                 <div className='bg-[#5f1928] h-2.5 rounded-full' style={{ width: '85%' }}></div>
               </div>
@@ -64,7 +64,7 @@ function TopSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -31,7 +31,7 @@ const Logo = () => {
   ];
 
   return (
-    <div className="text-center my-12 xl:px-[150px] lg:px-[60px] md:px-10  px-6">
+    <section className="text-center my-12 xl:px-[150px] lg:px-[60px] md:px-10  px-6">
       <h2 className='text-4xl font-bold mb-6'>Our Clients</h2>
       <div className="flex flex-wrap lg:flex-nowrap justify-center lg:gap-16 gap-10 gap-y-4 items-center">
         {logos.map((logo, index) => (
@@ -46,7 +46,7 @@ const Logo = () => {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

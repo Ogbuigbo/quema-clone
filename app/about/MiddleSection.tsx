@@ -34,9 +34,9 @@ function MiddleSection() {
   }, [clientSuccessCount, projectCompletionCount]);
 
   return (
-    <div className='bg-[#f8f9fa] px-8 xl:px-[150px] lg:px-10 py-24 flex flex-col lg:flex-row justify-between items-center'>
+    <section className='bg-[#f8f9fa] px-8 xl:px-[150px] lg:px-10 py-24 flex flex-col lg:flex-row justify-between items-center'>
       <div className='lg:w-1/2'>
-        <h5 className='text-lg font-medium text-gray-600 mb-3'>HR Consulting and Talent Development</h5>
+        <h1 className='text-lg font-medium text-gray-600 mb-3'>HR Consulting and Talent Development</h1>
         <h2 className='text-3xl font-bold text-gray-900 mb-6'>Strategic HR Solutions for Organizational Growth</h2>
 
         <div className='mt-8 space-y-6 flex gap-8 items-center flex-col md:flex-row'>
@@ -65,7 +65,7 @@ function MiddleSection() {
           className='rounded-lg object-cover'
         />
       </div>
-    </div>
+    </section>
   );
 }
 

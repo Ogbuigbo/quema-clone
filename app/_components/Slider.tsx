@@ -41,7 +41,7 @@ function ImageScroll() {
   };
 
   return (
-    <div className="relative mb-16"> {/* Added margin-bottom to create space */}
+    <section className="relative mb-16"> {/* Added margin-bottom to create space */}
       <Slider {...settings} className="flex items-center justify-center mt-8">
         {ITEMS.map((item, index) => (
           <div key={index} className="flex flex-col items-center justify-center p-2 2xl:p-8">
@@ -64,7 +64,7 @@ function ImageScroll() {
 
       {/* Custom CSS for dots */}
   
-    </div>
+    </section>
   );
 }
 
